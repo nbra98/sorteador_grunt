@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorteador com GruntJS</title>
+  <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1>Sorteador com GruntJS</h1>
+    
+    <form id="form-sorteador">
+      <div>
+        <label for="numero-maximo">Número Máximo</label>
+        <input id="numero-maximo" type="number" min="2" value="2" step="1" required>
+      </div>
+      <button type="submit">Sortear</button>
+    </form>
+
+    <div class="resultado">
+      <p>O número sorteado foi: <span id="resultado"></span></p>
+    </div>
+  </main>
+
+  <!-- teste -->
+
+  <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
